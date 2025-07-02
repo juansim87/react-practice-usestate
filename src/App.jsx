@@ -1,6 +1,7 @@
 import './App.css'
-import { SimpleCounter } from './SimpleCounter/SimpleCounter'
-import { ToggleButton } from './ToggleButton/ToggleButton'
+import { SimpleCounter } from './components/SimpleCounter/SimpleCounter'
+import { TextBox } from './components/TextBox/TextBox'
+import { ToggleButton } from './components/ToggleButton/ToggleButton'
 
 const App = () => {
   
@@ -9,7 +10,8 @@ const App = () => {
     <>
     <h1>Menestra de componentes</h1>
     <SimpleCounter initialNumber= {0}/>
-    <ToggleButton/>
+    <ToggleButton />
+    <TextBox />
     </>
   )
 }
