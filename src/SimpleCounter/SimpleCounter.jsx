@@ -1,8 +1,11 @@
 import { useState } from 'react'
 
-export const SimpleCounter = () => {
+export const SimpleCounter = (props) => {
 
-    const [counter, setCounter] = useState(0);
+//**Recordar intentar parametrizar el valor inicial mediante un input tipo number */
+const { initialNumber } = props;
+
+    const [counter, setCounter] = useState(initialNumber);
 
     const onAdd = () => {
         setCounter(counter + 1);
@@ -23,10 +26,10 @@ export const SimpleCounter = () => {
     <>
      <div>
         <h2>Contador Simple</h2>
-        <input type="number"/>
+        {/* <input type="number"/> */}
         <h2>{counter}</h2>
-        <button onClick={onAdd}>Suma</button>
-        <button onClick={onSubstract}>Resta</button>
+        <button onClick={onAdd}>Sumar</button>
+        <button onClick={onSubstract}>Restar</button>
         <button onClick={onReset}>Resetear</button>
         
      </div> 
