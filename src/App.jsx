@@ -1,4 +1,5 @@
 import './App.css'
+import { ShowHideButton } from './components/ShowHideButton/ShowHideButton'
 import { SimpleCounter } from './components/SimpleCounter/SimpleCounter'
 import { TextBox } from './components/TextBox/TextBox'
 import { ToggleButton } from './components/ToggleButton/ToggleButton'
@@ -12,6 +13,7 @@ const App = () => {
     <SimpleCounter initialNumber= {0}/>
     <ToggleButton />
     <TextBox />
+    <ShowHideButton/>
     </>
   )
 }
