@@ -2,6 +2,7 @@ import "./App.css";
 import { ChangeColor } from "./components/ChangeColor/ChangeColor";
 import { ShowHideButton } from "./components/ShowHideButton/ShowHideButton";
 import { SimpleCounter } from "./components/SimpleCounter/SimpleCounter";
+import { Tabs } from "./components/Tabs/Tabs";
 import { TaskList } from "./components/TaskList/TaskList";
 import { TextBox } from "./components/TextBox/TextBox";
 import { ToggleButton } from "./components/ToggleButton/ToggleButton";
@@ -17,6 +18,7 @@ const App = () => {
         <ShowHideButton />
         <ChangeColor />
         <TaskList />
+        <Tabs />
       </div>
     </>
   );

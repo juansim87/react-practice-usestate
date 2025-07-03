@@ -25,7 +25,7 @@ export const TaskList = () => {
       />
       <button onClick={handleAddTask}>Añadir Tarea</button>
       <ul className="task-list">
-        {taskList.map((item) => <li>{item}</li> )}
+        {taskList.map((item) => <li>{item}</li>)}
       </ul>
     </div>
   );

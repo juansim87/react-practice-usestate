@@ -5,7 +5,6 @@ export const ShowHideButton = () => {
     const [switchText, setSwitchText] = useState(true);
 
     const handleHide = () => {
-            console.log("Botón para borrar texto");
             setSwitchText(!switchText)
     }
   
