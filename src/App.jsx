@@ -1,21 +1,23 @@
-import './App.css'
-import { ShowHideButton } from './components/ShowHideButton/ShowHideButton'
-import { SimpleCounter } from './components/SimpleCounter/SimpleCounter'
-import { TextBox } from './components/TextBox/TextBox'
-import { ToggleButton } from './components/ToggleButton/ToggleButton'
+import "./App.css";
+import { ChangeColor } from "./components/ChangeColor/ChangeColor";
+import { ShowHideButton } from "./components/ShowHideButton/ShowHideButton";
+import { SimpleCounter } from "./components/SimpleCounter/SimpleCounter";
+import { TextBox } from "./components/TextBox/TextBox";
+import { ToggleButton } from "./components/ToggleButton/ToggleButton";
 
 const App = () => {
-  
-
   return (
     <>
-    <h1>Menestra de componentes</h1>
-    <SimpleCounter initialNumber= {0}/>
-    <ToggleButton />
-    <TextBox />
-    <ShowHideButton/>
+      <div className="app">
+        <h1>Menestra de componentes</h1>
+        <SimpleCounter initialNumber={0} />
+        <ToggleButton />
+        <TextBox />
+        <ShowHideButton />
+        <ChangeColor />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

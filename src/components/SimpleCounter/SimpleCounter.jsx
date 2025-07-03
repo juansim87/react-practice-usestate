@@ -9,17 +9,14 @@ const { initialNumber } = props;
 
     const onAdd = () => {
         setCounter(counter + 1);
-        console.log("Sumar", counter);
     }
 
     const onSubstract = () => {
         setCounter(counter - 1);
-        console.log("Restar", counter);
     }
 
     const onReset = () => {
         setCounter(0);
-        console.log("Resetear", counter);
     } 
 
   return (
@@ -27,7 +24,7 @@ const { initialNumber } = props;
      <div>
         <h2>Contador Simple</h2>
         {/* <input type="number"/> */}
-        <h2>{counter}</h2>
+        <p>{counter}</p>
         <button onClick={onAdd}>Sumar</button>
         <button onClick={onSubstract}>Restar</button>
         <button onClick={onReset}>Resetear</button>
