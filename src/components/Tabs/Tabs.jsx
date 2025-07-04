@@ -18,6 +18,7 @@ export const Tabs = () => {
 
   return (
     <div>
+    <h2>Pestañas con diferente contenido</h2>
       <button onClick={() => handleTabClick("start")}>Inicio</button>
       <button onClick={() => handleTabClick("profile")}>Perfil</button>
       <button onClick={() => handleTabClick("settings")}>Ajustes</button>

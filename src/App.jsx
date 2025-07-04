@@ -1,6 +1,7 @@
 import "./App.css";
 import { ChangeColor } from "./components/ChangeColor/ChangeColor";
 import { CheckBox } from "./components/CheckBox/CheckBox";
+import { EditableText } from "./components/EditableText/EditableText";
 import { LikeButton } from "./components/LikeButton/LikeButton";
 import { ShowHideButton } from "./components/ShowHideButton/ShowHideButton";
 import { SimpleCounter } from "./components/SimpleCounter/SimpleCounter";
@@ -25,6 +26,7 @@ const App = () => {
         <CheckBox />
         <ToggleImage />
         <LikeButton />
+        <EditableText />
       </div>
     </>
   );

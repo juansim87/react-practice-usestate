@@ -12,6 +12,7 @@ const handleLike = () => {
 
   return (
     <div>
+    <h2>Botón de Like Dinámico</h2>
     <button onClick={handleLike}>Likes: {likeCount}</button>
       
     </div>

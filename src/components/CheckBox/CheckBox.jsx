@@ -5,8 +5,8 @@ export const CheckBox = () => {
 
     const [check, setCheck] = useState(false);
 
-const handleCheck = (e) => {
-    setCheck(e.target.checked)  
+const handleCheck = (event) => {
+    setCheck(event.target.checked)  
 }
 
   return (
