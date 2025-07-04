@@ -7,6 +7,7 @@ import { Tabs } from "./components/Tabs/Tabs";
 import { TaskList } from "./components/TaskList/TaskList";
 import { TextBox } from "./components/TextBox/TextBox";
 import { ToggleButton } from "./components/ToggleButton/ToggleButton";
+import { ToggleImage } from "./components/ToggleImage/ToggleImage";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <TaskList />
         <Tabs />
         <CheckBox />
+        <ToggleImage />
       </div>
     </>
   );

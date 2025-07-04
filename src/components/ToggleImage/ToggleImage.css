@@ -1,0 +1,7 @@
+.dynamic-image {
+    width: 400px;
+}
+
+.dynamic-image img {
+    width: 100%;
+}
