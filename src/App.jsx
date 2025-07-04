@@ -1,5 +1,6 @@
 import "./App.css";
 import { ChangeColor } from "./components/ChangeColor/ChangeColor";
+import { CheckBox } from "./components/CheckBox/CheckBox";
 import { ShowHideButton } from "./components/ShowHideButton/ShowHideButton";
 import { SimpleCounter } from "./components/SimpleCounter/SimpleCounter";
 import { Tabs } from "./components/Tabs/Tabs";
@@ -19,6 +20,7 @@ const App = () => {
         <ChangeColor />
         <TaskList />
         <Tabs />
+        <CheckBox />
       </div>
     </>
   );

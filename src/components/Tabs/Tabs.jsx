@@ -3,9 +3,9 @@ import "./Tabs.css";
 
 export const Tabs = () => {
   const items = [
-    { tab: "start", content: "Bienvenido, usuario" },
-    { tab: "profile", content: "Juan Simón Abad | Salamanca | 37 años" },
-    { tab: "settings", content: "Personalización pendiente" },
+    { id: "start", content: "Bienvenido, usuario" },
+    { id: "profile", content: "Juan Simón Abad | Salamanca | 37 años" },
+    { id: "settings", content: "Personalización pendiente" },
   ];
 
   const [activeTab, setActiveTab] = useState("start");
@@ -14,7 +14,7 @@ export const Tabs = () => {
     setActiveTab(tabName);
   };
 
-  const currentItem = items.find((item) => item.tab === activeTab);
+  const currentItem = items.find((item) => item.id === activeTab);
 
   return (
     <div>

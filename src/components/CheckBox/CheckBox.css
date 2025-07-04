@@ -1,0 +1,12 @@
+label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.accepted {
+color: green;
+}
+
+.denied {
+color: red
+}
