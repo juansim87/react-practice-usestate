@@ -12,7 +12,7 @@ export const ChangeColor = () => {
     <div className="change-color">
       <h2>Botón de cambiar de color</h2>
       <button onClick={handleColor}>Cambiar de color</button>
-      <div className={color ? "red square" : "blue square"}></div>
+      <div className={`square ${color ? "red" : "blue"}`}></div>
     </div>
   );
 };

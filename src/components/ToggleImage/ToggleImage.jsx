@@ -9,8 +9,8 @@ const handleToggle = () => {
     setToggle(!toggle);
 }
 
-const image1 = "https://en.people.cn/NMediaFile/2017/0203/FOREIGN201702030442000250890788570.jpg";
-const image2 = "https://i.redd.it/7v0duaytvq761.jpg"
+const imageTiger = "https://en.people.cn/NMediaFile/2017/0203/FOREIGN201702030442000250890788570.jpg";
+const imageLion = "https://i.redd.it/7v0duaytvq761.jpg"
 
 
   return (
@@ -21,7 +21,7 @@ const image2 = "https://i.redd.it/7v0duaytvq761.jpg"
         Busca tu animal totémico
       </button>
       <div className='dynamic-image'>
-      <img src= {toggle ? image1 : image2} alt="Imagen cambiante" />
+      <img src= {toggle ? imageTiger : imageLion} alt="Imagen cambiante" />
       </div>
 
     </div>
